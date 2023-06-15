@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>checkout</title>
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+   <div class="content">
+      <nav class="navbar">
+         <div class="navbar-logo">
+            <a href="checkout.html">
+               <img src="imgs/logo.png" alt="Logo"></a>
+         </div>
+         <ul class="navbar-menu">
+            <li><a href="product.html">Products</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#Functionality">Functionality</a></li>
+            <li><a href="#Collabrations">Collabrations</a></li>
+            <li><a href="#Reviews">Reviews</a></li>
+            <li><a href="#Store">Store</a></li>
+         </ul>
+         <div class="navbar-icons">
+            <a href="#"><i class="fa fa-search icon"></i></a>
+            <a href="#"><i class="fa fa-heart icon"></i></a>
+            <a href="#"><i class="fa fa-shopping-cart icon"></i></a>
+         </div>
+         <button class="navbar-toggle" onclick="toggleMenu()">
+            <i class="fa fa-bars"></i>
+         </button>
+      </nav>
+      <div class="cart">
+         <h1>Shopping Cart</h1>
+      </div>
+      <div class="main">
+         <div class="slot">
+            <img src="imgs/image 15.png">
+            <p>4 Slot Toaster (Red)<br><br>
+               <span style="font-size: 20px; font-weight: normal;">6 Browning Levels <br> Defrost Button <br>Bagel
+                  Button <br><br>Qty:</span>
+               <button class="btn">1</button>
+               <span style="font-size:15px;color: #D7A0B9;margin-left: -3%;">Remove</span>
+               <span style="font-size:15px;color: #D7A0B9;margin-left: 4px;">Save for later</span>
+            </p>
+         </div>
+         <div class="box">
+            <div class="order">
+               <h2>Order Summary</h2>
+               <p>4 Slot Toaster (Red) <span style="margin-left: 30%;">Qty: 1</span> </p>
+               <h6>Sub Total <span style="margin-left: 50%;">$279.95</span></h6>
+               <hr width="300" color="black">
+               <button class="btn_1"><a href="thankyou_page.html"> Proceed to Checkout</a></button>
+               <div class="hr_in">
+                  <hr>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="similar">
+         <h3>Similar to your products</h3>
+      </div>
+      <div class="img_1">
+         <img src="imgs/image 35.png" width="20%">
+         <img src="imgs/image 36.png" width="20%">
+         <img src="imgs/image 33.png" width="20%">
+         <img src="imgs/image 37.png" width="20%">
+      </div>
+      <div class="bill">
+         <h2>Billing Information</h2>
+      </div>
+      <div class="main_1">
+         <div class="form_1">
+            <div class="first">
+               <input type="text" id="fname" name="firstname" placeholder="First Name">
+               <input type="text" id="fname" name="firstname" placeholder="Last Name">
+            </div>
+            <input type="text" id="fname" name="firstname" placeholder="Email">
+            <input type="text" id="fname" name="firstname" placeholder="Address">
+            <div class="second">
+               <input type="text" id="fname" name="firstname" placeholder="State">
+               <input type="text" id="fname" name="firstname" placeholder="Zip Code">
+            </div>
+            <input type="text" id="fname" name="firstname" placeholder="City">
+            <input type="text" id="fname" name="firstname" placeholder="Phone Number">
+         </div>
+         <div class="box_2">
+            <div class="order_2">
+               <h2>Order Summary</h2>
+               <p>4 Slot Toaster (Red) <span style="margin-left: 30%;">Qty: 1</span> </p>
+               <h6>Sub Total <span style="margin-left: 50%;">$279.95</span></h6>
+               <hr width="300" color="black">
+               <button class="btn_2"><a href="thankyou_page.html">Continue</a></button>
+               <div class="hr_in">
+                  <hr>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="select">
+         <h2>Select Payment Method</h2>
+      </div>
+      <div class="main_3">
+         <div class="form_2">
+            <div class="img_2">
+               <img src="imgs/image 40.png" width="70">
+               <img src="imgs/image 41.png" width="50">
+               <img src="imgs/image 42.png" width="40">
+               <img src="imgs/image 43.png" width="40">
+            </div>
+            <input type="text" id="fname" name="firstname" placeholder="Card Number">
+            <div class="first_1">
+               <input type="text" id="fname" name="firstname" placeholder="First Name">
+               <input type="text" id="fname" name="firstname" placeholder="Last Name">
+            </div>
+            <div class="second_1">
+               <input type="text" id="fname" name="firstname" placeholder="Expiration Date">
+               <input type="text" id="fname" name="firstname" placeholder="CVC">
+            </div>
+            <div class="tacbox">
+               <input id="radio" type="radio" />
+               <label for="radio"> <a href="#">Terms and Conditions</a>.</label>
+            </div>
+         </div>
+         <div class="box_3">
+            <div class="order_3">
+               <h2>Order Summary</h2>
+               <p>4 Slot Toaster (Red) <span style="margin-left: 30%;">Qty: 1</span> </p>
+               <h6>Sub Total <span style="margin-left: 50%;">$279.95</span></h6>
+               <hr width="300" color="black">
+               <button class="btn_3"><a href="thankyou_page.html">Continue</a></button>
+               <div class="hr_in">
+                  <hr>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="Review">
+         <h1>Review Order</h1>
+      </div>
+      <div class="main_4">
+         <div class="red">
+            <img src="imgs/image 15.png">
+            <div class="toaster">
+               <p>4 Slot Toaster (Red)<br><br>
+                  <span style="font-size: 20px; font-weight: normal;">6 Browning Levels <br> Defrost Button <br>Bagel
+                     Button</span>
+               <h6>Qty:1</h6>
+               </p>
+            </div>
+         </div>
+         <div class="box_4">
+            <div class="order_4">
+               <h2>Order Summary</h2>
+               <p>4 Slot Toaster (Red) <span style="margin-left: 30%;">Qty: 1</span> </p>
+               <h6>Sub Total <span style="margin-left: 50%;">$279.95</span></h6>
+               <hr width="300" color="black">
+               <button class="btn_4"><a href="thankyou_page.html">Confirm Order</a></button>
+            </div>
+         </div>
+      </div>
+      <div class="subscribe_part">
+         <div class="sub_head">
+            <h1>Subscribe to newsletter</h1>
+         </div>
+         <div class="sub_form">
+            <div class="form">
+               <input type="email" class="form__email" placeholder="Email" />
+               <button class="form__button"><a href="thankyou_page.html">Subscribe</a></button>
+            </div>
+            <div class="notice">
+               <input type="checkbox">
+               <span class="notice__copy">I agree the privacy policy</span>
+            </div>
+         </div>
+      </div>
+      <div class="footer">
+         <div class="footer_img">
+            <img src="imgs/logo.png" alt="Logo">
+         </div>
+         <div class="footer_text">
+            <h1> CONTACTS<span style="margin-left: 10%;"> SMEG IN THE WORLD</span> </h1>
+            <p>Smeg USA VAT 01555030350<br> Smeg USA, Inc - 150 East 58th Street, 7th Floor New York, NY 10155<br> Phone
+               +1-212-265-5378 Fax +-1-212-265-5945<br> E-mail info@smegusa.com<br> LEGAL DISCLAIMER <span
+                  style="margin-left: 2%;"> PRIVACY POLICY</span> <span style="margin-left: 2%;"> COOKIES DISCLAIMER
+               </span></p>
+            <i class="fa fa-instagram"> </i>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-youtube-play"></i>
+            <i class='fa fa-tiktok'></i>
+         </div>
+      </div>
+</body>
+
+</html>
+<script type="text/javascript">
+   function toggleMenu() {
+      var menu = document.querySelector('.navbar-menu');
+      menu.classList.toggle('show');
+   }
+</script>
